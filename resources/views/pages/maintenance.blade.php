@@ -57,14 +57,26 @@
                 </div>
 
                 <!-- VERSION -->
-                <div class="bg-slate-50 dark:bg-zink-700 rounded-xl p-6 text-center border border-slate-200 dark:border-zink-500 shadow-sm">
+                <div class="bg-slate-50 dark:bg-zink-700 rounded-xl p-6 text-center border border-slate-200 dark:border-zink-500 shadow-sm hover:shadow-lg transition-all duration-300">
 
-                    <h5 class="font-bold text-slate-700 dark:text-white mb-4 text-lg">
+                    <div class="mb-3">
+                        <i class="ri-code-box-line text-4xl text-blue-500"></i>
+                    </div>
+
+                    <h5 class="font-bold text-slate-700 dark:text-white mb-2 text-lg">
                         Current Version
                     </h5>
 
-                    <span class="inline-flex items-center px-5 py-2 rounded-full bg-blue-500 text-white font-semibold shadow">
-                        v1.0
+                    <p class="text-slate-500 dark:text-zink-300 text-sm mb-4">
+                        Human Resource Management System
+                    </p>
+
+                   <!-- VERSION BADGE -->
+                    <span class="inline-flex items-center gap-2 px-5 py-2 rounded-full
+                                bg-custom-500 text-white
+                                font-bold shadow-lg">
+                        <i class="ri-rocket-line"></i>
+                        Version 1.0
                     </span>
 
                 </div>
