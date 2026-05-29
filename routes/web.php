@@ -88,6 +88,9 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
             Route::get('department/page', 'department')->name('hr/department/page');
             Route::post('department/save', 'saveRecorddepartment')->name('hr/department/save');
             Route::post('department/delete', 'deleteRecorddepartment')->name('hr/department/delete');
+            Route::view('/maintenance', 'pages.maintenance')->name('maintenance');
+            Route::view('/hr/settings', 'pages.settings')->name('settings');
+            Route::view('/hr/account', 'pages.account')->name('account');
         });
     });
 });
